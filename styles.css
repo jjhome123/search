@@ -7,6 +7,15 @@ tr {
     text-indent: 30px;
 }
 
+html {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: dimgrey;
+}
+
 .right {
     float: right;
 }
@@ -16,8 +25,8 @@ tr {
 }
 
 .navbar {
-    margin: 10px;
-    padding: 5px;
+    margin: 15px;
+    padding: 10px;
     font-size: 20px;
 }
 
