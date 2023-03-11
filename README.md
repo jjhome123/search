@@ -1,4 +1,4 @@
-# search
+# CS50w Project 0 - search
 
 This is my submission for Project 0 for CS50w - A three-page website that emulates Google's frontend search.
 It consists of three pages:
