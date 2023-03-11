@@ -2,21 +2,53 @@
 <html lang="en">
     <head>
         <title>Advanced Search</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <h1><em>Gewgil Advanced</em></h1>
-        <a href="image.html"></a>
-        <form action="https://www.google.com/search">
-            <h3>all these words</h3>
-            <input type="text" name="as_q">
-            <h3>this exact word or phrase</h3>
-            <input type="text" name="as_epq">
-            <h3>any of these words</h3>
-            <input type="text" name="as_oq">
-            <h3>none of these words</h3>
-            <input type="text" name="as_eq">
-            <input type="submit" value="Advanced Search">
-        </form>
-
+        <div>
+            <form action="https://www.google.com/search">
+                <a id="logo" href="index.html"><h2>OOGLY</h2></a>
+                <h2 id="advanced_title">ADVANCED SEARCH</h2>
+                <hr>
+                <br><br>
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="left">Find pages with...</th>
+                            <th></th>
+                            <th class="left">To do this in the search box.</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>all these words</td>
+                            <td><input class="advanced_round" name="as_q"></td>
+                            <td>Type the important words: animatronic epic 3am challenge</td>
+                        </tr>
+                        <tr>
+                            <td>this exact word or phrase</td>
+                            <td><input class="advanced_round" name="as_epq"></td>
+                            <td>Put exact words in quotes: "Charles Entertainment Cheese"</td>
+                        </tr>
+                        <tr>
+                            <td>any of these words</td>
+                            <td><input class="advanced_round" name="as_oq"></td>
+                            <td>Type OR between all the words you want: pizza OR bacteria</td>
+                        </tr>
+                        <tr>
+                            <td>none of these words</td>
+                            <td><input class="advanced_round" name="as_eq"></td>
+                            <td>Put a minus sign just before words that you don't want: -education -careers</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><input class="right" id="advanced_search" type="submit" value="Advanced Search"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+            <br>
+            <hr>
+        </div>
     </body>  
 </html>
